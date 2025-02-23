@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Rating</title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            
+        }
+           form {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        input[type="text"],input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            padding: 12px 20px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Collecting info to find underrated movies</h1>
+        <form  action="/read" method="post">
+
+            <label>Restaurant Name:</label>
+            <input type="text" name="Restaurant Name"><br><br>
+ 
+            <label>Country Code:</label>
+            <input type="text" name="Country Code"><br><br>
+ 
+            <label>City:</label>
+            <input type="text" name="City"><br><br>
+
+            <label>Address:</label>
+            <input type="text" name="Address"><br><br>
+
+            <label>Locality Verbose:</label>
+            <input type="text" name="Locality Verbose"><br><br>
+
+            <label>Longitude:</label>
+            <input type="text" name="Longitude"><br><br>
+
+            <label>Latitude:</label>
+            <input type="text" name="Latitude"><br><br>
+
+            <label>Cuisines:</label>
+            <input type="text" name="Cuisines"><br><br>
+
+            <label>Average Cost for two:</label>
+            <input type="text" name="Average Cost for two"><br><br>
+
+            <label>Currency:</label>
+            <input type="text" name="Currency"><br><br>
+
+            <label>Has Table booking:</label>
+            <input type="text" name="Has Table booking"><br><br>
+
+            <label>Has Online delivery:</label>
+            <input type="text" name="Has Online delivery"><br><br>
+
+            <label>Is delivering now:</label>
+            <input type="text" name="Is delivering now"><br><br>
+
+            <label>Price range:</label>
+            <input type="text" name="Price range"><br><br>
+
+            <label>Rating text:</label>
+            <input type="text" name="Rating text"><br><br>
+
+            <label>Votes:</label>
+            <input type="text" name="Votes"><br><br>
+
+ 
+            <input type="submit" value="Submit"><br><br>
+        </form>
+    </body>
+</html>
